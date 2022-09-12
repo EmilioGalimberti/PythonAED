@@ -1,3 +1,4 @@
+
 """
 Una empresa de venta de artículos de peluquería mantiene información sobre los distintos artículos que tiene a la venta. Por cada artículo se registran los datos siguientes:
 - Número de identificación (un entero),
@@ -36,7 +37,6 @@ def test():
         print('4. Generar Archivo para registros del arreglo distintos de stock 0 ')
         print('5. Mostrar archivo de punto 4')
         print('6. Finalizar el programa')
-
         opcion = int(input('Ingrese una opcion: '))
 
         if opcion == 1:
